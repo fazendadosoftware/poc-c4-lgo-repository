@@ -27,6 +27,16 @@
       "ConnectionDescription": "Sends Product Data to Walmart incl. price and availability",
       "InterfaceName": "WalmartOutboundInterface",
       "DataObjectName": "ProductsStockAndAvailability"
+    },
+    {
+      "FactsheetType": "Application",
+      "FactSheetName": "Walmart Product Information System 2",
+      "UUID": "f98dea93-bu7e-4b88-9f0b-49d97225b659",
+      "ConnectedFactSheepURI": "https://xxx.leanix.net/architecturegateway/factsheet/Application/f98dea93-bu7e-4b88-9f0b-49d97225b658",
+      "ConnectionType": "Outbound",
+      "ConnectionDescription": "Another app",
+      "InterfaceName": "WalmartOutboundInterface",
+      "DataObjectName": "ProductsStockAndAvailability"
     }
   ]
 }
