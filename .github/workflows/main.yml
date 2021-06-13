@@ -26,4 +26,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Trigger the Azure function by posting the "test.json" file
         run: |
-          curl -X POST -H "Content-Type: application/json" -d @${{ github.workspace }}/data/test.json http://localhost:7071/api/listener
+          curl -X POST -H "Content-Type: application/json" -d @${{ github.workspace }}/data/test.json https://poc-c4-diagram-lgo.azurewebsites.net/api/listener -u "LEANIX:LEANIX"
