@@ -20,7 +20,7 @@
   "Applications": [
     {
       "FactsheetType": "Application",
-      "FactSheetName": "Walmart Product Information System",
+      "FactSheetName": "Walmart Product Information Systemx",
       "UUID": "f98dea93-bu7e-4b88-9f0b-49d97225b658",
       "ConnectedFactSheepURI": "https://xxx.leanix.net/architecturegateway/factsheet/Application/f98dea93-bu7e-4b88-9f0b-49d97225b658",
       "ConnectionType": "Outbound",
